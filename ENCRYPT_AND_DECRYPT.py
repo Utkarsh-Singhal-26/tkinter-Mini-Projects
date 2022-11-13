@@ -73,7 +73,7 @@ def Main_Screen():
     screen.geometry("375x398")
 
     # ===== LOGO =====
-    img = Image.open("IMAGES/ENCRYPT_DECRYPT.PNG")
+    img = Image.open("ENCRYPT_DECRYPT.PNG")
     img = ImageTk.PhotoImage(img)
     screen.iconphoto(False, img)
 
