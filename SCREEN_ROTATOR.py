@@ -10,7 +10,7 @@ root.config(bg="#54C5D1")
 root.resizable(False, False)
 
 #===== IMAGE =====
-photo = ImageTk.PhotoImage(file="IMAGES/SCREEN.png")
+photo = ImageTk.PhotoImage(file="SCREEN.png")
 my_image = Label(image=photo)
 my_image.place(x=0, y=0, width=500, height=500)
 
