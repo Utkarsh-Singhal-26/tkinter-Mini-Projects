@@ -24,8 +24,8 @@ def Customize():
         button_mode=True
 
 #===== ACCESSING IMAGES =====
-on = ImageTk.PhotoImage(file="IMAGES/LIGHT_MODE.png")
-off = ImageTk.PhotoImage(file="IMAGES/DARK_MODE.png")
+on = ImageTk.PhotoImage(file="LIGHT_MODE.png")
+off = ImageTk.PhotoImage(file="DARK_MODE.png")
 
 #===== BUTTON =====
 button = Button(root, image=on, bd=0, bg="White", activebackground="White", command=Customize)
