@@ -5,11 +5,11 @@ root = Tk()
 root.title("PHOTO CHANGER")
 
 #===== ACCESSING IMAGES =====
-my_img_1 = ImageTk.PhotoImage(Image.open("IMAGES/1.png"))
-my_img_2 = ImageTk.PhotoImage(Image.open("IMAGES/2.png"))
-my_img_3 = ImageTk.PhotoImage(Image.open("IMAGES/3.png"))
-my_img_4 = ImageTk.PhotoImage(Image.open("IMAGES/4.png"))
-my_img_5 = ImageTk.PhotoImage(Image.open("IMAGES/5.png"))
+my_img_1 = ImageTk.PhotoImage(Image.open("1.png"))
+my_img_2 = ImageTk.PhotoImage(Image.open("2.png"))
+my_img_3 = ImageTk.PhotoImage(Image.open("3.png"))
+my_img_4 = ImageTk.PhotoImage(Image.open("4.png"))
+my_img_5 = ImageTk.PhotoImage(Image.open("5.png"))
 
 my_img_list = [my_img_1, my_img_2, my_img_3, my_img_4, my_img_5]
 
