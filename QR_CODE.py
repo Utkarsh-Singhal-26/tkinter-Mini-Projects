@@ -100,9 +100,9 @@ class QR_CODE:
             }
             qr_code = qrcode.make(qr_data)
             qr_code = resizeimage.resize_cover(qr_code, [190, 190])
-            qr_code.save("QR_CODE/Emp_" + str(self.var_emp_code.get()) + ".png")
+            qr_code.save("Emp_" + str(self.var_emp_code.get()) + ".png")
             
-            self.img = ImageTk.PhotoImage(file="QR_CODE/Emp_" + str(self.var_emp_code.get()) + ".png")
+            self.img = ImageTk.PhotoImage(file="Emp_" + str(self.var_emp_code.get()) + ".png")
             self.qr_code.config(image=self.img)
 
             self.msg = "QR Generated Successfully !!!!!"
